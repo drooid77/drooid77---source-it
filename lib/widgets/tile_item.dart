@@ -14,7 +14,6 @@ class TileItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     bool isImageExists = !(image == null);
-
     return Container(
       padding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 12.0),
       child: Row(
@@ -62,5 +61,3 @@ class TileItem extends StatelessWidget {
     );
   }
 }
-
-class required {}
